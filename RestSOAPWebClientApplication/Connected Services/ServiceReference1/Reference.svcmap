@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6a18e994-4995-4dfc-a4b8-55008208df0a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:62237/RESTService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RESTService.xsd" MetadataType="Schema" ID="1b731a66-e37f-4528-a15a-b253bc9f2419" SourceId="1" SourceUrl="http://localhost:62237/RESTService.svc?xsd=xsd2" />
+    <MetadataFile FileName="RESTService1.xsd" MetadataType="Schema" ID="1c148432-a79b-423b-aa31-374d112121d3" SourceId="1" SourceUrl="http://localhost:62237/RESTService.svc?xsd=xsd0" />
+    <MetadataFile FileName="RESTService.disco" MetadataType="Disco" ID="3e911afa-68ab-4a0e-a1d9-895baf812586" SourceId="1" SourceUrl="http://localhost:62237/RESTService.svc?disco" />
+    <MetadataFile FileName="APIServiceRest.wsdl" MetadataType="Wsdl" ID="c92964a4-6fd9-4256-a5be-da63b9066e38" SourceId="1" SourceUrl="http://localhost:62237/RESTService.svc?wsdl" />
+    <MetadataFile FileName="RESTService2.xsd" MetadataType="Schema" ID="4fe1b7dc-f4f0-4279-b721-2941361a0627" SourceId="1" SourceUrl="http://localhost:62237/RESTService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
